@@ -14,6 +14,7 @@
 		844DB2571A686D8400429502 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844DB2561A686D8400429502 /* Images.xcassets */; };
 		844DB25A1A686D8400429502 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DB2581A686D8400429502 /* LaunchScreen.xib */; };
 		844DB2661A686D8400429502 /* DelegateExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB2651A686D8400429502 /* DelegateExampleTests.m */; };
+		844DB2711A686DB400429502 /* DrinkingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DB2701A686DB400429502 /* DrinkingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		844DB25F1A686D8400429502 /* DelegateExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelegateExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		844DB2641A686D8400429502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		844DB2651A686D8400429502 /* DelegateExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateExampleTests.m; sourceTree = "<group>"; };
+		844DB26F1A686DB400429502 /* DrinkingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrinkingView.h; sourceTree = "<group>"; };
+		844DB2701A686DB400429502 /* DrinkingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrinkingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				844DB2561A686D8400429502 /* Images.xcassets */,
 				844DB2581A686D8400429502 /* LaunchScreen.xib */,
 				844DB2491A686D8300429502 /* Supporting Files */,
+				844DB26F1A686DB400429502 /* DrinkingView.h */,
+				844DB2701A686DB400429502 /* DrinkingView.m */,
 			);
 			path = DelegateExample;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				844DB2521A686D8400429502 /* ViewController.m in Sources */,
 				844DB24F1A686D8300429502 /* AppDelegate.m in Sources */,
+				844DB2711A686DB400429502 /* DrinkingView.m in Sources */,
 				844DB24C1A686D8300429502 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

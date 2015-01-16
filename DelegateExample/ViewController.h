@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DrinkingView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <DrinkingViewDelegate>
 
+@property DrinkingView *drink;
+
+@property UIButton *drinkButton;
 
 @end
 
